@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Karan Kapil Shewale – Portfolio</title>
+<style>
+:root{--bg:#fff;--alt:#f5f5f7;--card:#fff;--fg:#1d1d1f;--mut:#6e6e73;--line:#d2d2d7;--acc:#0071e3;--navbg:rgba(255,255,255,.72);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#000;--alt:#111113;--card:#1c1c1e;--fg:#f5f5f7;--mut:#a1a1a6;--line:#38383a;--acc:#2997ff;--navbg:rgba(0,0,0,.72)}}
+:root[data-theme="dark"]{--bg:#000;--alt:#111113;--card:#1c1c1e;--fg:#f5f5f7;--mut:#a1a1a6;--line:#38383a;--acc:#2997ff;--navbg:rgba(0,0,0,.72)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(60px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue",Inter,Arial,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.47}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--navbg);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);z-index:10}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:11;height:48px;background:var(--navbg);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid var(--line)}
+nav div{max-width:980px;margin:auto;height:100%;padding:0 22px;display:flex;align-items:center;justify-content:space-between;font-size:13px}
+nav b{font-weight:600;font-size:14px}
+nav span a{margin-left:20px}
+a{color:inherit;text-decoration:none}
+nav a{color:var(--mut)}nav a:hover{color:var(--fg)}
+section{padding:96px 22px}
+.alt{background:var(--alt)}
+.w{max-width:980px;margin:auto}
+.hero{text-align:center;padding:110px 22px 90px}
+.eyebrow{color:var(--acc);font-weight:600;font-size:17px;margin:0 0 10px}
+h1{font-size:clamp(40px,8vw,80px);line-height:1.05;letter-spacing:-.03em;font-weight:700;margin:0 0 18px}
+.sub{font-size:clamp(19px,3vw,28px);color:var(--mut);max-width:680px;margin:0 auto 32px;line-height:1.3;font-weight:500}
+.btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn{padding:12px 24px;border-radius:980px;font-size:17px;background:var(--acc);color:#fff}
+.btn.o{background:transparent;color:var(--acc);border:1px solid var(--acc)}
+h2{font-size:clamp(32px,5vw,48px);letter-spacing:-.025em;line-height:1.1;margin:0 0 40px;font-weight:700}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:64px}
+.stat{background:var(--alt);border-radius:24px;padding:28px 20px;text-align:center}
+.stat strong{display:block;font-size:44px;letter-spacing:-.03em;color:var(--fg)}
+.stat span{color:var(--mut);font-size:15px}
+.card{background:var(--card);border-radius:28px;padding:36px;margin-bottom:20px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.alt .card{box-shadow:none}
+.card h3{font-size:28px;letter-spacing:-.02em;margin:0 0 4px;line-height:1.15}
+.card .t{color:var(--mut);font-size:17px;margin:0 0 18px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.tags i{font-style:normal;font-size:13px;padding:5px 12px;border-radius:980px;background:var(--alt);color:var(--mut)}
+.alt .tags i{background:var(--bg)}
+.card ul{margin:0;padding-left:20px;color:var(--fg)}
+.card li{margin-bottom:10px;font-size:17px}
+.edu{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}
+.edu .card{margin:0}
+.edu small{color:var(--mut);font-size:15px;display:block;margin-bottom:12px}
+.edu em{font-style:normal;font-size:40px;font-weight:700;letter-spacing:-.03em}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:20px}
+.skills .card{margin:0;padding:28px}
+.skills h3{font-size:19px;margin-bottom:14px}
+.skills p{margin:0;color:var(--mut);font-size:16px}
+.contact{text-align:center}
+.contact p{font-size:21px;color:var(--mut);margin:0 0 28px}
+footer{text-align:center;color:var(--mut);font-size:12px;padding:24px 22px 40px}
+@media(max-width:600px){section{padding:64px 18px}.card{padding:26px;border-radius:22px}}
+</style>
+</head>
+<body>
+<nav><div><b>Karan Shewale</b><span><a href="#projects">Projects</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#contact">Contact</a></span></div></nav>
+
+<section class="hero">
+  <p class="eyebrow">Portfolio · AI Generalist (Design) · Ather Energy</p>
+  <h1>Karan Kapil Shewale</h1>
+  <p class="sub">B.Tech in CSE + AI&amp;ML. I build trustworthy LLM, RAG and voice-AI systems end to end.</p>
+  <div class="btns"><a class="btn" href="#projects">View projects</a><a class="btn o" href="#contact">Get in touch</a></div>
+  <div class="w stats">
+    <div class="stat"><strong>70%</strong><span>less manual route-analysis time</span></div>
+    <div class="stat"><strong>11</strong><span>passing automated tests</span></div>
+    <div class="stat"><strong>10+</strong><span>engineered features</span></div>
+    <div class="stat"><strong>3</strong><span>AI &amp; data projects</span></div>
+  </div>
+</section>
+
+<section id="projects" class="alt"><div class="w">
+  <h2>Projects</h2>
+  <div class="card">
+    <h3>DocGenie</h3><p class="t">RAG-Based Document Assistant</p>
+    <div class="tags"><i>Python</i><i>LlamaIndex</i><i>ChromaDB</i><i>Groq LLaMA-3.3-70B</i></div>
+    <ul>
+      <li>Built a complete RAG pipeline from scratch – document chunking, HuggingFace embeddings, vector storage and retrieval via ChromaDB – and connected it to an open-source LLM (Groq’s LLaMA-3.3-70B) for generation.</li>
+      <li>Applied prompt engineering to control retrieval-augmented responses, and added structured validation checks to catch unreliable or incorrect output before it reached the user – an evaluation-first approach to keeping LLM output trustworthy.</li>
+      <li>Integrated multiple input modalities (PDF documents and voice via Whisper) into a single unified pipeline, deployed with Streamlit.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>LeadPilot AI</h3><p class="t">RAG-Based AI Voice Agent</p>
+    <div class="tags"><i>Python</i><i>FastAPI</i><i>Ollama</i><i>Llama 3.2</i><i>FAISS</i></div>
+    <ul>
+      <li>Developed a voice-enabled AI agent integrating local speech-to-text (Faster-Whisper), LLM-based response generation, and offline text-to-speech (pyttsx3) for interactive conversations.</li>
+      <li>Implemented a RAG pipeline using Sentence Transformers and FAISS for semantic retrieval from a knowledge base, grounding LLM responses in relevant business information.</li>
+      <li>Integrated Ollama with Llama 3.2 3B for local inference and developed guardrails to handle unsupported questions, pricing queries, and unverified third-party integrations.</li>
+      <li>Built REST APIs using FastAPI and validated backend behavior with automated tests, achieving 11 passing tests.</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>On Track 5G</h3><p class="t">AI-based Railway Connectivity Prediction</p>
+    <div class="tags"><i>Python</i><i>Pandas</i><i>Matplotlib</i></div>
+    <ul>
+      <li>Built a Python-based analytics pipeline end-to-end that processed large-scale geospatial records to predict 5G coverage along railway corridors.</li>
+      <li>Reduced manual route-analysis time by 70% by designing and automating the data preprocessing and validation pipeline.</li>
+      <li>Engineered 10+ features from raw multi-source data to improve prediction accuracy.</li>
+    </ul>
+  </div>
+</div></section>
+
+<section id="education"><div class="w">
+  <h2>Education</h2>
+  <div class="edu">
+    <div class="card"><h3>SRM Institute of Science and Technology KTR</h3><p class="t">B.Tech in CSE+AI&amp;ML</p><small>June 2023 – Expected June 2027</small><em>7.72</em> <span style="color:var(--mut)">/ 10 CGPA</span></div>
+    <div class="card"><h3>The Orbis School, Keshavnagar, Pune</h3><p class="t">Higher Secondary Education, PCM+P.ed</p><small>June 2021 – April 2023</small><em>83%</em> <span style="color:var(--mut)">XII CBSE Boards</span></div>
+  </div>
+</div></section>
+
+<section id="skills" class="alt"><div class="w">
+  <h2>Technical skills</h2>
+  <div class="skills">
+    <div class="card"><h3>Programming Languages</h3><p>Python, C++, JavaScript, SQL</p></div>
+    <div class="card"><h3>LLM &amp; GenAI</h3><p>LLM Fundamentals (tokens, embeddings, context windows), Prompt Engineering, RAG, LLM Evaluation, Open-Source LLMs (LLaMA via Groq and Ollama)</p></div>
+    <div class="card"><h3>Data &amp; Analytics</h3><p>NumPy, Pandas, Matplotlib</p></div>
+    <div class="card"><h3>CS Fundamentals</h3><p>Data Structures &amp; Algorithms, Object Oriented Programming, APIs &amp; REST API Design (FastAPI)</p></div>
+    <div class="card"><h3>Databases</h3><p>MySQL, PostgreSQL, MongoDB, Vector Stores (ChromaDB, FAISS)</p></div>
+    <div class="card"><h3>Developer Tools</h3><p>Git, GitHub, VS Code, Antigravity IDE</p></div>
+  </div>
+</div></section>
+
+<section id="contact" class="contact"><div class="w">
+  <h2>Let’s talk.</h2>
+  <p>Open to the AI Generalist (Design) role at Ather Energy.</p>
+  <div class="btns">
+    <a class="btn" href="mailto:karankshewale@gmail.com">karankshewale@gmail.com</a>
+    <a class="btn o" href="tel:+917028963353">+91-7028963353</a>
+    <a class="btn o" href="https://github.com/karann150" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn o" href="https://www.linkedin.com/in/karan-shewale-0a08571b1" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</div></section>
+<footer>© 2026 Karan Kapil Shewale</footer>
+</body>
+</html>
